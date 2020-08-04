@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thongtin"
+    android:weightSum="50"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <ImageButton
+            android:id="@+id/imbhom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ic_home_black_24dp">
+
+        </ImageButton>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_weight="22"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            >
+
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="390dp"
+            android:layout_height="280dp"
+            android:src="@drawable/nen"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Với sự phát triển của Internet và điện thoại thông minh trong những năm gần đây, thì nhu cầu cập nhật tin tức ngay trên chính chiếc Smartphone của người dùng ngày càng lớn."
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Ứng dụng Đọc báo online cung cấp đến cho người dùng những tin tức cập nhật mới nhất, chính xác nhất ngay trên chính chiếc điện thoại di động của mình."
+                android:textSize="15sp">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="22"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                >
+
+            </LinearLayout>
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="390dp"
+                android:layout_height="280dp"
+                android:src="@drawable/nen"
+                android:scaleType="fitXY"
+                />
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phiên bản: 1.0.0"
+                    android:textSize="15sp">
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: truongvanhoangbk@gmail.com"
+                    android:textSize="15sp">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Số điện thoại: 0999999999"
+                    android:textSize="15sp">
+                </TextView>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+
+
+</LinearLayout>

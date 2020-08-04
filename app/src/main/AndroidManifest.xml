@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Đọc Báo Online"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".setting"></activity>
+        <activity android:name=".riengtu" />
+        <activity android:name=".dieukhoan" />
+        <activity android:name=".thongtin" />
+        <activity android:name="tonghoplist.tonghoptammot" />
+        <activity android:name="tonghoplist.tonghopbaymot" />
+        <activity android:name="tonghoplist.tonghopsaumot" />
+        <activity android:name="tonghoplist.tonghopnammot" />
+        <activity android:name="tonghoplist.tonghopbonmot" />
+        <activity android:name="tonghoplist.tonghopbamot" />
+        <activity android:name="tonghoplist.tonghophaimot" />
+        <activity android:name="tonghoplist.tonghopmotmot" />
+        <activity android:name="tonghopp.tonghoptam" />
+        <activity android:name="tonghopp.tonghopbay" />
+        <activity android:name="tonghopp.tonghopsau" />
+        <activity android:name="tonghopp.tonghopnam" />
+        <activity android:name="tonghopp.tonghopbon" />
+        <activity android:name="tonghopp.tonghopba" />
+        <activity android:name="tonghopp.tonghophai" />
+        <activity android:name="tonghopp.tonghop" />
+        <activity android:name="ngoisao.danhsach2_8" />
+        <activity android:name="ngoisao.danhsach2_7" />
+        <activity android:name="ngoisao.danhsach2_6" />
+        <activity android:name="ngoisao.danhsach2_5" />
+        <activity android:name="ngoisao.danhsach2_4" />
+        <activity android:name="ngoisao.danhsach2_3" />
+        <activity android:name="ngoisao.danhsach2_2" />
+        <activity android:name="ngoisao.danhsach2_1" />
+        <activity android:name="danhsach1.danhsach1_6" />
+        <activity android:name="danhsach1.danhsach1_5" />
+        <activity android:name="danhsach1.danhsach1_4" />
+        <activity android:name="danhsach1.danhsach1_3" />
+        <activity android:name="danhsach1.danhsach1_2" />
+        <activity android:name="danhsach1.danhsach1_1" />
+        <activity android:name="danhsach0.danhsach8" />
+        <activity android:name="danhsach0.danhsach7" />
+        <activity android:name="danhsach0.danhsach6" />
+        <activity android:name="danhsach0.danhsach5" />
+        <activity android:name="danhsach0.danhsach4" />
+        <activity android:name="danhsach0.danhsach3" />
+        <activity android:name="danhsach0.danhsach2" />
+        <activity android:name=".webview" />
+        <activity android:name="danhsach0.danhsach1" />
+        <activity android:name=".bao4" />
+        <activity android:name=".bao3" />
+        <activity android:name=".bao2" />
+        <activity android:name=".bao1" />
+        <activity android:name=".flashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

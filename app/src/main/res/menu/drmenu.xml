@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+<!--    <item android:title="Danh sách báo:"-->
+<!--      >-->
+<!--        <menu>-->
+
+
+            <item
+                android:id="@+id/nav_tonghop"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Đọc báo tổng hợp"
+                />
+            <item
+                android:id="@+id/nav_express"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Vnexpress"/>
+            <item
+                android:id="@+id/nav_24h"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Tin nóng 24h"/>
+            <item
+                android:id="@+id/nav_ngoisao"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="Ngôi sao"/>
+<!--        </menu>-->
+<!--    </item>-->
+<!--    <item android:title="   ">-->
+<!--        <menu>-->
+
+<!--            <item-->
+<!--                android:id="@+id/thongtin"-->
+<!--                android:icon="@drawable/ic_error_outline_black_24dp"-->
+<!--                android:title="Thông tin"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+
+
+
+</menu>
